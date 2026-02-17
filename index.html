@@ -507,6 +507,22 @@
       line-height: 1.7;
     }
     .card-body br { display: block; content: ''; margin-top: 6px; }
+    .card-body .card-desc {
+      margin-bottom: 12px;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    .card-body ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .card-body li { margin-bottom: 4px; }
+    .expertise-intro {
+      color: var(--text-muted);
+      margin: 0 0 28px;
+      max-width: 640px;
+      font-size: 1rem;
+    }
 
     /* Timeline */
     .timeline {
@@ -804,47 +820,62 @@
 <section id="skills" class="fade-in">
   <div class="title">Core Expertise</div>
   <div class="divider"></div>
+  <p class="expertise-intro">I combine hands-on technical depth with leadership—delivering uptime, cost control, and security across infrastructure, cloud, and AI-driven operations. Below is where I focus and how I apply it.</p>
   <div class="cards">
     <div class="card">
       <div class="card-head">IT Leadership</div>
       <div class="card-body">
-        IT Operations Management<br>
-        Information Security Leadership<br>
-        Vendor & SLA Governance
+        <p class="card-desc">Leading IT teams and operations so technology supports business goals: clear SLAs, reliable service delivery, and alignment with stakeholders.</p>
+        <ul>
+          <li>IT Operations Management — day-to-day run, monitoring, incident response</li>
+          <li>Information Security Leadership — defining and enforcing security posture</li>
+          <li>Vendor & SLA Governance — contracts, negotiations, and performance tracking</li>
+        </ul>
       </div>
     </div>
     <div class="card">
       <div class="card-head">Cloud & Security</div>
       <div class="card-body">
-        Microsoft Azure & Google Cloud<br>
-        Identity & Access Management<br>
-        Network & Endpoint Security
+        <p class="card-desc">Designing and running secure, scalable cloud environments and protecting identity, network, and endpoints.</p>
+        <ul>
+          <li>Microsoft Azure & Google Cloud — administration, cost optimization, reliability</li>
+          <li>Identity & Access Management (IAM) — SSO, access control, least privilege</li>
+          <li>Network & Endpoint Security — FortiGate firewalls, policies, and hardening</li>
+        </ul>
       </div>
     </div>
     <div class="card">
       <div class="card-head">AI & IT Ops Optimization</div>
       <div class="card-body">
-        AI-built internal applications to replace/reduce SaaS<br>
-        Reducing IT SaaS spend & vendor dependency<br>
-        Automation, intelligent monitoring & analytics<br>
-        <strong>AI tools:</strong> Cursor, Claude, Gemini, ChatGPT, Divine AI
+        <p class="card-desc">Using AI to build internal apps, automate workflows, and cut spend on external SaaS while keeping full control and scalability.</p>
+        <ul>
+          <li>AI-built internal applications to replace or reduce dependency on costly SaaS</li>
+          <li>Reducing IT SaaS spend and vendor lock-in; intelligent monitoring and analytics</li>
+          <li><strong>AI tools:</strong> Cursor, Claude, Gemini, ChatGPT, Divine AI</li>
+        </ul>
       </div>
     </div>
     <div class="card">
       <div class="card-head">Compliance & Resilience</div>
       <div class="card-body">
-        ISO 27001 & HIPAA<br>
-        Disaster Recovery & BCM<br>
-        Risk & Audit Management
+        <p class="card-desc">Keeping operations audit-ready and resilient: frameworks, disaster recovery, and risk management.</p>
+        <ul>
+          <li>ISO 27001 & HIPAA — policies, controls, and evidence for audits</li>
+          <li>Disaster Recovery & BCM — backup, recovery plans, and business continuity</li>
+          <li>Risk & Audit Management — risk assessment and remediation tracking</li>
+        </ul>
       </div>
     </div>
     <div class="card">
       <div class="card-head">Tools & Platforms</div>
       <div class="card-body">
-        <strong>AI:</strong> Cursor, Claude, Gemini, ChatGPT, Divine AI<br>
-        UEM: ManageEngine Desktop Central · SSO: OneLogin<br>
-        Jira, HubSpot, Asana, ProofHub · G Suite<br>
-        FortiGate · Acronis · Windows, Kali Linux
+        <p class="card-desc">Stack I use daily for UEM, collaboration, ticketing, security, and development.</p>
+        <ul>
+          <li><strong>AI:</strong> Cursor, Claude, Gemini, ChatGPT, Divine AI</li>
+          <li>UEM: ManageEngine Desktop Central · SSO: OneLogin</li>
+          <li>Jira, HubSpot, Asana, ProofHub · G Suite</li>
+          <li>FortiGate · Acronis · Windows, Kali Linux</li>
+        </ul>
       </div>
     </div>
   </div>
